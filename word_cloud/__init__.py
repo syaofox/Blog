@@ -22,8 +22,13 @@ class WordCloudGenerator(object):
             print(issues_in_label.totalCount)
 
         print(frequencies)
+        
+        # Check if all frequencies are zero to avoid division by zero error
+        if not frequencies or all(freq == 0 for freq in frequencies.values()):
+            print('No issues found with labels, skipping wordcloud generation')
+            return 'assets/wordcloud.png'  # Return existing image path
+        
         # generate wordcount image to local dir
-
         # specify the font to support Chinese word
         wc = WordCloud(font_path='lib/fonts/wqy-microhei.ttc', width=1920, height=400)
         wc.generate_from_frequencies(frequencies=frequencies)
