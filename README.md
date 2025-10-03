@@ -1,7 +1,7 @@
 
 <p align='center'>
     <img src="https://badgen.net/github/issues/syaofox//Blog"/>
-    <img src="https://badgen.net/badge/last-commit/2025-10-03 04:55:20"/>
+    <img src="https://badgen.net/badge/last-commit/2025-10-03 04:59:52"/>
     <img src="https://badgen.net/github/forks/syaofox//Blog"/>
     <img src="https://badgen.net/github/stars/syaofox//Blog"/>
     <img src="https://badgen.net/github/watchers/syaofox//Blog"/>
@@ -16,6 +16,14 @@
     <a href="https://syaofox.github.io//Blog/"><img src="assets/wordcloud.png" title="词云" alt="词云"></a>
 </summary>  
 
+<details open>
+<summary>apps	[1篇]</summary>
+
+- 2025-10-03 [Timeshift 的备份选项](https://github.com/syaofox/Blog/issues/3) 
+
+
+</details>
+            
 <details open>
 <summary>linux	[1篇]</summary>
 
